@@ -32,7 +32,6 @@ for node in from_ids:
 sval = input('How many iterations:')
 many = 1
 if ( len(sval) > 0 ) : many = int(sval)
-
 # Sanity check
 if len(prev_ranks) < 1 : 
     print("Nothing to page rank.  Check data.")
