@@ -46,7 +46,6 @@ for i in range(many):
         total = total + old_rank
         next_ranks[node] = 0.0
     # print total
-
     # Find the number of outbound links and sent the page rank down each
     for (node, old_rank) in list(prev_ranks.items()):
         # print node, old_rank
