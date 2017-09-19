@@ -2,7 +2,6 @@ import sqlite3
 
 conn = sqlite3.connect('spider.sqlite')
 cur = conn.cursor()
-
 # Find the ids that send out page rank - we only are interested
 # in pages in the SCC that have in and out links
 cur.execute('''SELECT DISTINCT from_id FROM Links''')
